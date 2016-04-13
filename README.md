@@ -9,7 +9,7 @@ Based on [Vanilla JavaScript Document Ready (Cross-Browser)](https://gist.github
 ``` html
 <head>
 ...
-<script src="vanilla-ready.js"></script>
+<script src="vanilla-ready.min.js"></script>
 <script>
   document.ready(function () {
     // Place your code here
@@ -32,4 +32,4 @@ Based on [Vanilla JavaScript Document Ready (Cross-Browser)](https://gist.github
 
 The code is available under the [MIT license](LICENSE).
 
-[c]2016 @dmarchena
+[c]2016 [@dmarchena](https://twitter.com/dmarchena)
