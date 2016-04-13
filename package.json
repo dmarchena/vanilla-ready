@@ -1,0 +1,29 @@
+{
+  "name": "vanilla-ready",
+  "version": "1.0.0",
+  "description": "Vanilla JS equivalent of jQuery .ready(): Execute a callback function when the DOM is fully loaded.",
+  "main": "vanilla-ready.min.js",
+  "scripts": {
+    "build": "uglifyjs vanilla-ready.js --comments -o vanilla-ready.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmarchena/vanilla-ready.git"
+  },
+  "keywords": [
+    "vanillaJS",
+    "DOMContentLoaded",
+    "ready",
+    "onready"
+  ],
+  "author": "David Marchena <dvmarchena@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmarchena/vanilla-ready/issues"
+  },
+  "homepage": "https://github.com/dmarchena/vanilla-ready#readme",
+  "devDependencies": {
+    "uglify-js": "^2.6.2"
+  }
+}
