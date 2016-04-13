@@ -31,3 +31,5 @@ Based on [Vanilla JavaScript Document Ready (Cross-Browser)](https://gist.github
 ## License
 
 The code is available under the [MIT license](LICENSE).
+
+[c]2016 @dmarchena
