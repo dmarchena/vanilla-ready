@@ -5,7 +5,7 @@
   "main": "vanilla-ready.min.js",
   "scripts": {
     "build": "uglifyjs vanilla-ready.js --comments -o vanilla-ready.min.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,15 @@
   },
   "homepage": "https://github.com/dmarchena/vanilla-ready#readme",
   "devDependencies": {
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-opera-launcher": "^0.3.0",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-qunit": "^0.1.9",
+    "karma-safari-launcher": "^0.1.1",
+    "phantomjs-prebuilt": "^2.1.7",
+    "qunitjs": "^1.23.1",
     "uglify-js": "^2.6.2"
   }
 }

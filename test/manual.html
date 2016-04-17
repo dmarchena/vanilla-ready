@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test</title>
+  <script src="../vanilla-ready.js"></script>
+  <script src="main-spec.js"></script>
+  <script>
+    document.ready(function() {
+      document.getElementById('foo').innerHTML = "Yeah!";
+    });
+  </script>
+  <script src="https://code.jquery.com/qunit/qunit-1.23.1.js"></script>
+  <script>
+    QUnit.test( "asynchronous test: async input focus", function( assert ) {
+      var done = assert.async();
+      document.ready(function() {
+        assert.equal(document.getElementById('foo').innerHTML, "Yeah!", "document.ready success!");
+        done();
+      });
+    });
+  </script>
+  <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-1.23.1.css">
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <p id="foo"><div>
+</body>
+</html>

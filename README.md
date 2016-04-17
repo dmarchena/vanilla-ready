@@ -27,6 +27,7 @@ Based on [Vanilla JavaScript Document Ready (Cross-Browser)](https://gist.github
 * Internet Explorer 8+
 * Opera *(latest 2)*
 * Safari *(latest 2)*
+* PhantomJS 2
 
 ## License
 
