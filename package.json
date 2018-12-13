@@ -5,7 +5,12 @@
   "main": "vanilla-ready.min.js",
   "scripts": {
     "build": "uglifyjs vanilla-ready.js --comments -o vanilla-ready.min.js",
-    "test": "karma start"
+    "test": "karma start",
+    "release:patch": "npm test && npm version patch",
+    "release:minor": "npm test && npm version minor",
+    "release:major": "npm test && npm version major",
+    "release:quick": "npm test && git add -A && git commit -m 'Quick release patch' && npm version patch",
+    "postversion": "git push && git push --tags && npm publish --access public"
   },
   "repository": {
     "type": "git",
