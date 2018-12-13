@@ -1,6 +1,6 @@
 {
   "name": "vanilla-ready",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vanilla JS equivalent of jQuery .ready(): Execute a callback function when the DOM is fully loaded.",
   "main": "vanilla-ready.min.js",
   "scripts": {
