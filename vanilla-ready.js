@@ -10,7 +10,7 @@
         if (document.readyState === 'complete') fn();
       });
     } else { // modern browsers
-      if (document.readyState !== 'loading') fn();
+      if (document.readyState !== 'loading' && fn != undefined) fn();
       else if (document.addEventListener) document.addEventListener('DOMContentLoaded', fn);
     }
   };
